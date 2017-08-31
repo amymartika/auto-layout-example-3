@@ -13,12 +13,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     
+    @IBOutlet weak var labelTrailingConstraint: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         label1.text = "Lorem ispum dolor sit amet"
         label2.text = "Lorem ipsum dolor sit amet"
+    }
+    
+    override func viewWillLayoutSubviews() {
+        labelTrailingConstraint.constant = 50.0
     }
 
     override func didReceiveMemoryWarning() {

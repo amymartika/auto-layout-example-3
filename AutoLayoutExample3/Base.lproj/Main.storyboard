@@ -47,6 +47,7 @@
                     <connections>
                         <outlet property="label1" destination="r6M-YE-JME" id="3QP-qc-CyD"/>
                         <outlet property="label2" destination="Wjr-KB-dNr" id="gwx-p3-6cY"/>
+                        <outlet property="labelTrailingConstraint" destination="dhj-Np-zi3" id="5rO-3p-htV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
